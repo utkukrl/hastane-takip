@@ -1,0 +1,23 @@
+
+database:
+  host: "localhost"
+  user: "your_username"
+  password: "your_password"
+  dbname: "your_database_name"
+  port: "5432"
+
+redis:
+  address: "localhost:6379"
+  password: ""
+  db: 0
+
+jwt:
+  secret_key: "your_secret_key"
+
+app:
+  port: "3000"
+  env: "development"
+
+
+logging:
+  level: "info"
